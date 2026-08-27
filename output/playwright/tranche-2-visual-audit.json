@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "botbotbot-visual-audit-v1",
+  "generatedAt": "2026-08-26T07:19:32Z",
+  "route": "/",
+  "browser": "Codex In-app Browser",
+  "consoleTotals": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "captureNote": "Raw page screenshots are the browser export. The in-app browser reserved pixels outside that export even though window.innerWidth and window.innerHeight matched the requested CSS viewport. Evidence canvases preserve the raw page at northwest and extend only the reserved right and bottom area with the product canvas color #EEF3F8 so the artifact dimensions equal the requested viewport. Raw dimensions and hashes are retained for independent checking.",
+  "captures": [
+    {
+      "id": "desktop-control-room",
+      "state": "desktop-control-room",
+      "requestedViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "actualWindowViewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "scrollHeight": 997,
+        "clientHeight": 900,
+        "horizontalOverflow": 0
+      },
+      "responsiveState": {
+        "railDisplay": "flex",
+        "mobileSwitcherDisplay": "none"
+      },
+      "console": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "rawScreenshot": {
+        "path": "output/playwright/tranche-2-desktop-raw.jpg",
+        "width": 1425,
+        "height": 891,
+        "sha256": "4ab57ebe2d0584c3456de208927869331c1e079658d4a2965d52c7dc9ad5e109"
+      },
+      "evidenceScreenshot": {
+        "path": "output/playwright/tranche-2-desktop.jpg",
+        "width": 1440,
+        "height": 900,
+        "sha256": "8e052da962c7bae9c8d39accecc80e312a145a8409852c86af1760c875742467",
+        "canvasExtension": {
+          "gravity": "northwest",
+          "color": "#EEF3F8"
+        }
+      }
+    },
+    {
+      "id": "mobile-control-room-closed",
+      "state": "mobile-control-room-closed",
+      "requestedViewport": {
+        "width": 360,
+        "height": 800
+      },
+      "actualWindowViewport": {
+        "width": 360,
+        "height": 800
+      },
+      "document": {
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "scrollHeight": 1276,
+        "clientHeight": 800,
+        "horizontalOverflow": 0
+      },
+      "responsiveState": {
+        "railDisplay": "none",
+        "mobileSwitcherDisplay": "grid",
+        "ledgerVisibility": "hidden",
+        "minimumReactionTargetHeight": 44
+      },
+      "console": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "rawScreenshot": {
+        "path": "output/playwright/tranche-2-mobile-360-raw.jpg",
+        "width": 345,
+        "height": 767,
+        "sha256": "5b81e50bc8c8b8323278112f13d5ff4226fe367ffc7a089b1509d1515ec89522"
+      },
+      "evidenceScreenshot": {
+        "path": "output/playwright/tranche-2-mobile-360.jpg",
+        "width": 360,
+        "height": 800,
+        "sha256": "7d55f53884d91cd52f10660d39ddd183c734395e4cc26c0316399b3488a8cb7a",
+        "canvasExtension": {
+          "gravity": "northwest",
+          "color": "#EEF3F8"
+        }
+      }
+    },
+    {
+      "id": "mobile-authority-ledger-open",
+      "state": "mobile-authority-ledger-open",
+      "requestedViewport": {
+        "width": 360,
+        "height": 800
+      },
+      "actualWindowViewport": {
+        "width": 360,
+        "height": 800
+      },
+      "document": {
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "scrollHeight": 1276,
+        "clientHeight": 800,
+        "horizontalOverflow": 0
+      },
+      "responsiveState": {
+        "ledgerVisibility": "visible",
+        "ledgerRole": "dialog",
+        "ledgerModal": true
+      },
+      "console": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "rawScreenshot": {
+        "path": "output/playwright/tranche-2-mobile-ledger-360-raw.jpg",
+        "width": 345,
+        "height": 767,
+        "sha256": "2b7dcfd7f21bd954686c5051d98ac7e8e2ced8d538ca9229a262318d79d20cd7"
+      },
+      "evidenceScreenshot": {
+        "path": "output/playwright/tranche-2-mobile-ledger-360.jpg",
+        "width": 360,
+        "height": 800,
+        "sha256": "99d76322575943dbb046ea224b9523f831ff4840524200fe1d8799b6885dad22",
+        "canvasExtension": {
+          "gravity": "northwest",
+          "color": "#EEF3F8"
+        }
+      }
+    }
+  ]
+}

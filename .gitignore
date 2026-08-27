@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.omx/
+.playwright-cli/
+.vite/
+.turbo/
+target/
+*.log
+*.tmp
+*.journal
+*.writer.lock
+.DS_Store
+.env
+.env.*
+!.env.example
